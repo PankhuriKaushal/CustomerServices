@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/customerdatabase
+    username: root
+    password: shivam
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
